@@ -1,0 +1,1 @@
+Forever -o out.log -e err.log --minUptime 7000 --spinSleepTime 7000 -a main_cluster.js

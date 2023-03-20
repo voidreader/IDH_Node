@@ -1,0 +1,74 @@
+{
+    "db": {
+        "host": "db-352mr.cdb.ntruss.com",
+        "port": 12306,
+        "user": "imageframeAll",
+        "password": "imageframe.1120",
+        "database": "idh",
+        "connectionLimit": 10000,
+        "waitForConnections": true
+    },
+    "selectDB": {
+        "host": "db-352tv.cdb.ntruss.com",
+        "port": 12306,
+        "user": "imageframeAll",
+        "password": "imageframe.1120",
+        "database": "idh",
+        "connectionLimit": 10000,
+        "waitForConnections": true
+    },
+    "logDB": {
+        "host": "db-3cfbo.cdb.ntruss.com",
+        "port": 3306,
+        "user": "imageframeAll",
+        "password": "imageframe.1120",
+        "database": "idhlog",
+        "connectionLimit": 10000,
+        "waitForConnections": true
+    },
+    "logSelectDB": {
+        "host": "db-3cfdv.cdb.ntruss.com",
+        "port": 3306,
+        "user": "imageframeAll",
+        "password": "imageframe.1120",
+        "database": "idhlog",
+        "connectionLimit": 10000,
+        "waitForConnections": true
+    },
+    "redis": {
+        "host": "redis-2tq4u.cdb.ntruss.com",
+        "port": 6379
+    },
+    "server": {
+        "name": "::IDHServer::",
+        "port": 4000
+    },
+    "dependencies": {
+        "async": "1.0.0",
+        "cluster": "0.7.7",
+        "crypto": "1.0.1",
+        "date-utils": "^1.2.21",
+        "express": "4.16.3",
+        "http": "0.0.0",
+        "md5": "2.2.1",
+        "moment": "2.22.1",
+        "mysql": "2.9.0",
+        "node-schedule": "1.3.2",
+        "pm2": "2.10.3",
+        "redis": "2.6.1",
+        "sf": "0.2.0",
+        "socket.io": "2.1.0",
+        "socket.io-redis": "5.2.0",
+        "winston": "^3.2.1",
+        "winston-daily-rotate-file": "^4.4.2"
+    },
+    "config": {
+        "ionic_bundler": "webpack",
+        "ionic_source_map": "source-map"
+    },
+    "ruleBox": {
+        "d": 3,
+        "h": 10403,
+        "sk": 3
+    }
+}
